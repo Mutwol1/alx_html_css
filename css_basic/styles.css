@@ -1,0 +1,34 @@
+
+footer, main, header{
+
+    flex-direction: column;
+}
+
+main{
+
+    flex-direction: row;
+    flex: auto;
+}
+article
+{
+   flex: 2;
+   overflow-y: auto;
+}
+aside{
+ flex: 1;
+ overflow: auto;
+}
+
+body{
+    background-color: grey;
+}
+
+header , footer{
+    background-color: brown;
+
+}
+
+table,th,td{
+
+    border: 1px solid;
+}
